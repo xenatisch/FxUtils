@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FxUtils", "FxUtils\FxUtils.fsproj", "{C83B0145-D727-4A63-B011-59AD941C5D52}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FxUtils.Tests", "..\FxUtils.Tests\FxUtils.Tests.fsproj", "{F202249E-A8B2-400B-B584-ED0879A63660}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C83B0145-D727-4A63-B011-59AD941C5D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83B0145-D727-4A63-B011-59AD941C5D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83B0145-D727-4A63-B011-59AD941C5D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83B0145-D727-4A63-B011-59AD941C5D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F202249E-A8B2-400B-B584-ED0879A63660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F202249E-A8B2-400B-B584-ED0879A63660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F202249E-A8B2-400B-B584-ED0879A63660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F202249E-A8B2-400B-B584-ED0879A63660}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <WarnOn>3390;$(WarnOn)</WarnOn>
+        <PackageId>FxUtils</PackageId>
+        <Version>0.0.1</Version>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+        <Authors>Pouria Hadjibagheri</Authors>
+        <Description>Functional programming utilities for F#, in F#.</Description>
+        <PackageTags>f#;utilities;sorting;smooth sort</PackageTags>
+        <PackageProjectUrl>https://github.com/xenatisch/FxUtils</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RootNamespace>FxUtils</RootNamespace>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Compile Include="Arrays\Sorting.SmoothSort.fs" />
+        <Folder Include="FxUtils" />
+    </ItemGroup>
+
+</Project>
